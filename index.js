@@ -24,5 +24,5 @@ constant - notice what JavaScript does when you try to change the constant. */
 const leastFavoriteCustomer = 'bob';
 
 function changeLeastFavoriteCustomer() {
-  leastFavoriteCustomer = 'john'
+  const leastFavoriteCustomer = 'john'
 }
