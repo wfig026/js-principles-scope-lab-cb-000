@@ -1,7 +1,7 @@
 // Write your solution in this file!
 
 // customerName: Declare a variable in global scope called customerName using the var keyword.
-var customerName = 'bob'
+var customerName = 'bob';
 
 // upperCaseCustomerName(): Write a function that accesses that global customerName variable, and uppercases it.
 function upperCaseCustomerName() {
@@ -15,5 +15,13 @@ function setBestCustomer() {
 
 // See the consequences of declaring a variable in global scope, by writing a new function called overwriteBestCustomer() that changes that bestCustomer variable.
 function overwriteBestCustomer() {
-  bestCustomer = 'maybe bob'
+  bestCustomer = 'maybe bob';
+}
+
+/* leastFavoriteCustomer and changeLeastFavoriteCustomer(): Now declare a constant in global scope called leastFavoriteCustomer,
+be sure to assign it some initial value. Ok, now write a function called changeLeastFavoriteCustomer() that attempts to change that
+constant - notice what JavaScript does when you try to change the constant. */
+const leastFavoriteCustomer = 'bob';
+function changeLeastFavoriteCustomer() {
+  const leastFavoriteCustomer = 'john'
 }
